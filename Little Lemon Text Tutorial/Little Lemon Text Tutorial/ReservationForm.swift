@@ -22,6 +22,25 @@ struct ReservationForm: View {
             }
             .onChange(of: customerName, perform: {newValue in print(newValue)})
         }
+        ZStack() {
+                    Circle()
+                        .foregroundColor(Color.gray)
+                    Circle()
+                        .scale(x: 0.55, y: 0.55)
+                        .foregroundColor(Color.red)
+            HStack (alignment: .bottom){
+                        Image(systemName: "globe")
+                            .imageScale(.large)
+                            .foregroundColor(.accentColor)
+                        Text ("Hello, world!")
+                        VStack {
+                            Button("One"){}
+                            Button("Two"){}
+                        }
+                    }
+                    
+                }
+        
         
     }
 }
