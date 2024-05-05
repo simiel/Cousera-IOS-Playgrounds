@@ -17,6 +17,7 @@
 		12DD7A1B2BE6D5E4006C71D3 /* ReservationForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DD7A1A2BE6D5E4006C71D3 /* ReservationForm.swift */; };
 		12DD7A1D2BE783A0006C71D3 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DD7A1C2BE783A0006C71D3 /* MainView.swift */; };
 		12DD7A1F2BE788A1006C71D3 /* ControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DD7A1E2BE788A1006C71D3 /* ControlsView.swift */; };
+		12DD7A212BE78DA7006C71D3 /* ReservationCalender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12DD7A202BE78DA7006C71D3 /* ReservationCalender.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		12DD7A1A2BE6D5E4006C71D3 /* ReservationForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationForm.swift; sourceTree = "<group>"; };
 		12DD7A1C2BE783A0006C71D3 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		12DD7A1E2BE788A1006C71D3 /* ControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsView.swift; sourceTree = "<group>"; };
+		12DD7A202BE78DA7006C71D3 /* ReservationCalender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationCalender.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			children = (
 				12DD79F02BE6D4FA006C71D3 /* Little_Lemon_Text_TutorialApp.swift */,
 				12DD79F22BE6D4FA006C71D3 /* ContentView.swift */,
+				12DD7A202BE78DA7006C71D3 /* ReservationCalender.swift */,
 				12DD7A1E2BE788A1006C71D3 /* ControlsView.swift */,
 				12DD7A1C2BE783A0006C71D3 /* MainView.swift */,
 				12DD7A1A2BE6D5E4006C71D3 /* ReservationForm.swift */,
@@ -270,6 +273,7 @@
 				12DD7A1D2BE783A0006C71D3 /* MainView.swift in Sources */,
 				12DD79F12BE6D4FA006C71D3 /* Little_Lemon_Text_TutorialApp.swift in Sources */,
 				12DD7A1F2BE788A1006C71D3 /* ControlsView.swift in Sources */,
+				12DD7A212BE78DA7006C71D3 /* ReservationCalender.swift in Sources */,
 				12DD7A1B2BE6D5E4006C71D3 /* ReservationForm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
