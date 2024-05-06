@@ -14,6 +14,7 @@
 		12F7DC592BE8B92D0018ED41 /* ListExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F7DC582BE8B92D0018ED41 /* ListExerciseTests.swift */; };
 		12F7DC632BE8B92D0018ED41 /* ListExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F7DC622BE8B92D0018ED41 /* ListExerciseUITests.swift */; };
 		12F7DC652BE8B92D0018ED41 /* ListExerciseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F7DC642BE8B92D0018ED41 /* ListExerciseUITestsLaunchTests.swift */; };
+		12F7DC722BE8CB7C0018ED41 /* GestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F7DC712BE8CB7C0018ED41 /* GestureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		12F7DC5E2BE8B92D0018ED41 /* ListExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListExerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12F7DC622BE8B92D0018ED41 /* ListExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListExerciseUITests.swift; sourceTree = "<group>"; };
 		12F7DC642BE8B92D0018ED41 /* ListExerciseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListExerciseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		12F7DC712BE8CB7C0018ED41 /* GestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				12F7DC472BE8B92B0018ED41 /* ListExerciseApp.swift */,
 				12F7DC492BE8B92B0018ED41 /* ContentView.swift */,
+				12F7DC712BE8CB7C0018ED41 /* GestureView.swift */,
 				12F7DC4B2BE8B92D0018ED41 /* Assets.xcassets */,
 				12F7DC4D2BE8B92D0018ED41 /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			files = (
 				12F7DC4A2BE8B92B0018ED41 /* ContentView.swift in Sources */,
 				12F7DC482BE8B92B0018ED41 /* ListExerciseApp.swift in Sources */,
+				12F7DC722BE8CB7C0018ED41 /* GestureView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
