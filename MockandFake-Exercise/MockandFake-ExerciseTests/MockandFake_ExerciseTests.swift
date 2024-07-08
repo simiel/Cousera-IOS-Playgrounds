@@ -11,13 +11,16 @@ import XCTest
 final class MockandFake_ExerciseTests: XCTestCase {
 
     func test_calculateTotal_salesTaxTwentyPercent(){
-        let items = [ CheckoutItem(name: "Fish and Chips", price: 625) ]
+        let items = [ CheckoutItem(name: "Beef", price: 40),
+                            CheckoutItem(name: "Oil", price: 10),
+                            CheckoutItem(name: "Rice", price: 30),
+                            CheckoutItem(name: "Big onion", price: 20)]
         
         let taxPercentage = 20
         
         let totalToPay = calculateTotal(items: items, localTaxPercent: taxPercentage)
         
-        XCTAssertEqual(totalToPay, 750)
+        XCTAssertEqual(totalToPay, 120)
     }
 
 }
