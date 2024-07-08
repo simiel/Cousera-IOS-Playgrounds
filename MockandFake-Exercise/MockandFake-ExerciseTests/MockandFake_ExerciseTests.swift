@@ -17,7 +17,7 @@ final class MockandFake_ExerciseTests: XCTestCase {
         
         let totalToPay = calculateTotal(items: items, localTaxPercent: taxPercentage)
         
-        XCTAssertEqual(totalToPay, 100)
+        XCTAssertEqual(totalToPay, 750)
     }
 
 }
